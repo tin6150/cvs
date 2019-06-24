@@ -14,7 +14,7 @@ BootStrap: docker
 From: alpine:3.6
 
 %runscript
-echo "running cvs client from the container:"
+#--echo "running cvs client from the container:"
 cvs "$@"
 
 %post
