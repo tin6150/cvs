@@ -3,8 +3,8 @@
 # https://www.singularity-hub.org/collections/3206
 
 # usage:
-# singularity pull --name cvs.simg shub://tin6150/cvs
-# ln -s cvs.simg cvs
+# singularity pull shub://tin6150/cvs
+# ln -s tin6150-cvs-master-latest.simg cvs
 # export PATH=$PATH:/global/scratch/tin/singularity-repo
 # cvs help
 
